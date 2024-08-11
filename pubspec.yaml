@@ -1,0 +1,27 @@
+name: flutter_suitmedia_test
+description: "A new Flutter project."
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get:
+  http:
+  provider: ^6.0.0
+  google_fonts:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mockito: ^5.0.17
+  build_runner: ^2.0.6
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
